@@ -36,9 +36,56 @@ The project is compatible with **Dev C++ 5.11** and runs using the **C++98 stand
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/ai-chatbot.git
 
 ### 2. Navigate to the Project Directory
-``` bash
+
 cd ai-chatbot
+
+## Usage
+###  Compile the Program
+
+- **Open the project in Dev C++ 5.11**
+
+- **Set compiler standard to C++98**
+
+- **Build/Compile the project**
+
+### Run the Program
+./chatbot
+
+## Project Structure
+ai-chatbot/
+│── main.cpp
+│── README.md
+
+## How it works?
+- The user enters a message.
+
+- The program checks for keywords.
+
+- Sentiment is classified as positive, negative, or neutral.
+
+- A predefined response is displayed.
+
+- The program continues until an exit command is entered.
+
+## Contributing
+
+### Contributions are welcome!
+
+- Fork the repository
+
+- Create a new branch
+  git checkout -b feature-name
+
+- Commit your changes
+  git commit -m "Add new feature"
+
+- Push to GitHub
+  git push origin feature-name
+
+-Open a Pull Request
+
+## Author
+Developed as a C++ learning project to demonstrate basic chatbot logic and sentiment handling.
