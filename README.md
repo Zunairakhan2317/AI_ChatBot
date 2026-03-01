@@ -1,33 +1,45 @@
-# CodeAlpha_AI_ChatBot
-# AI Chatbot Project
+#AI Chatbot Project
 
-Welcome to the AI Chatbot Project! This project is a simple chatbot that analyzes user sentiment and provides predefined responses based on user input. It's developed in C++98 and is compatible with Dev C++ 5.11.
+Welcome to the AI Chatbot Project!
 
-## Features
+This project is a simple chatbot that analyzes user sentiment and provides predefined responses based on user input. It is developed in C++98 and is compatible with Dev C++ 5.11.
 
-- **Sentiment Analysis**: Analyzes user input to determine if the sentiment is positive, negative, or neutral.
-- **Predefined Responses**: Responds to user input with predefined messages.
-- **Exit Condition**: Allows the user to exit the conversation by typing "exit," "quit," or "bye."
+Features
 
-## Installation
+Sentiment Analysis – Analyzes user input to determine whether the sentiment is positive, negative, or neutral.
+
+Predefined Responses – Responds with predefined messages based on detected sentiment.
+
+Exit Condition – Allows the user to exit the conversation by typing "exit", "quit", or "bye".
+
+Installation
 
 To set up the project on your local machine:
 
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/yourusername/ai-chatbot.git
-2. **Navigate directory**:cd ai-chatbot
-## Usage
-- Compile the Code: Use Dev C++ 5.11 to open the project and compile it in C++98 mode.
+1. Clone the Repository
+git clone https://github.com/yourusername/ai-chatbot.git
+2. Navigate to the Project Directory
+cd ai-chatbot
+Usage
+Compile the Code
 
-- Run the Program: Execute the compiled program from the command line:
+Open the project in Dev C++ 5.11 and compile it in C++98 mode.
+
+Run the Program
+
+After compiling, run the executable:
 
 ./chatbot
+Contributing
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit pull requests for any enhancements or bug fixes.
+Contributions are welcome!
 
+If you would like to improve this project:
 
+Fork the repository
 
+Create a new branch
 
+Make your changes
 
+Submit a pull request
