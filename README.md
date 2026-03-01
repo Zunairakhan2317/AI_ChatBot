@@ -1,45 +1,44 @@
-#AI Chatbot Project
+#  AI Chatbot
 
-Welcome to the AI Chatbot Project!
+A simple rule-based AI Chatbot built in **C++ (C++98 standard)** that performs basic sentiment analysis and responds with predefined messages based on user input.
 
-This project is a simple chatbot that analyzes user sentiment and provides predefined responses based on user input. It is developed in C++98 and is compatible with Dev C++ 5.11.
+---
 
-Features
+##  Overview
 
-Sentiment Analysis – Analyzes user input to determine whether the sentiment is positive, negative, or neutral.
+This project demonstrates a console-based chatbot that:
 
-Predefined Responses – Responds with predefined messages based on detected sentiment.
+- Detects user sentiment (positive, negative, neutral)
+- Responds with predefined messages
+- Allows users to exit the conversation using specific commands
 
-Exit Condition – Allows the user to exit the conversation by typing "exit", "quit", or "bye".
+The project is compatible with **Dev C++ 5.11** and runs using the **C++98 standard**.
 
-Installation
+---
 
-To set up the project on your local machine:
+## Features
 
-1. Clone the Repository
+-  **Sentiment Analysis**  
+  Analyzes user input and classifies it as positive, negative, or neutral.
+
+- **Predefined Responses**  
+  Generates appropriate responses based on detected sentiment.
+
+- **Exit Commands**  
+  Users can type `exit`, `quit`, or `bye` to end the conversation.
+
+- **Console-Based Interface**  
+  Lightweight and runs directly in the terminal.
+
+---
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/ai-chatbot.git
-2. Navigate to the Project Directory
+
+### 2. Navigate to the Project Directory
+``` bash
 cd ai-chatbot
-Usage
-Compile the Code
-
-Open the project in Dev C++ 5.11 and compile it in C++98 mode.
-
-Run the Program
-
-After compiling, run the executable:
-
-./chatbot
-Contributing
-
-Contributions are welcome!
-
-If you would like to improve this project:
-
-Fork the repository
-
-Create a new branch
-
-Make your changes
-
-Submit a pull request
